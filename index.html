@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2 class="logo">MyPortfolio<span>.</span></h2>
+    <button id="menuBtn" aria-label="Toggle menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div>
+      <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+      <h1>Hello, I'm <span>Rohit Kumar Gupta</span></h1>
+      <h2>Frontend Developer</h2>
+      <p>I create responsive and attractive websites using HTML, CSS and JavaScript.</p>
+      <a href="#projects" class="btn">View My Projects</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+    <div class="hero-icon">&lt;/&gt;</div>
+  </section>
+
+  <section id="about" class="section">
+    <p class="small-title">GET TO KNOW ME</p>
+    <h2>About <span>Me</span></h2>
+    <div class="card">
+      <h3>I'm a Web Developer</h3>
+      <p>I am passionate about web development and enjoy creating modern, responsive and user-friendly websites. I continuously practise coding and learn new technologies through projects.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section alternate">
+    <p class="small-title">MY EXPERTISE</p>
+    <h2>My <span>Skills</span></h2>
+    <div class="grid">
+      <div class="card"><h3>HTML5</h3><p>Website structure and semantic HTML.</p></div>
+      <div class="card"><h3>CSS3</h3><p>Responsive design, layouts and animations.</p></div>
+      <div class="card"><h3>JavaScript</h3><p>Interactive features and dynamic content.</p></div>
+      <div class="card"><h3>GitHub</h3><p>Managing and sharing coding projects.</p></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <p class="small-title">MY RECENT WORK</p>
+    <h2>Featured <span>Projects</span></h2>
+    <div class="grid">
+      <div class="card project">
+        <div class="project-icon">▦</div>
+        <h3>Image Gallery</h3>
+        <p>A responsive image gallery with navigation, filters and lightbox functionality.</p>
+        <p class="tags">HTML · CSS · JavaScript</p>
+      </div>
+      <div class="card project">
+        <div class="project-icon">＋</div>
+        <h3>Smart Calculator</h3>
+        <p>A calculator supporting addition, subtraction, multiplication and division.</p>
+        <p class="tags">HTML · CSS · JavaScript</p>
+      </div>
+      <div class="card project">
+        <div class="project-icon">&lt;/&gt;</div>
+        <h3>Personal Portfolio</h3>
+        <p>A personal website showcasing my skills, projects and contact information.</p>
+        <p class="tags">HTML · CSS · JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section alternate">
+    <p class="small-title">MY LEARNING JOURNEY</p>
+    <h2>Education & <span>Goals</span></h2>
+    <div class="card">
+      <h3>Your Degree / Course</h3>
+      <p>College/University: Add your college name here.</p>
+      <p>Learning frontend development through practical projects and coding practice.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="small-title">GET IN TOUCH</p>
+    <h2>Let's Work <span>Together</span></h2>
+    <p>Have an opportunity or project in mind? Feel free to contact me.</p>
+    <a href="mailto:rohitkumarsahu9506@gmail.com" class="btn">Email Me</a>
+    <a href="https://github.com/" class="btn outline" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/" class="btn outline" target="_blank">LinkedIn</a>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name | Personal Portfolio</p>
+    <a href="#home">Back to Top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
